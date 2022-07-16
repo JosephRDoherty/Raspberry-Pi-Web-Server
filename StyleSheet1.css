@@ -1,5 +1,27 @@
 ﻿body
 {
     background-color: #444444;
-    color: aliceblue;
+    color: #f47128;
+    font-family: "Courier New", monospace;
+}
+
+#title{
+    text-align: left;
+    line-height: 0.2;
+    border-style:inset;
+    border-left-style:double;
+    border-left-width: 10px;
+    padding-left: 2%;
+    position: sticky;
+}
+
+#title h1{
+    padding-bottom: 0.9%;
+    padding-right: 200px;
+    border-bottom-style: double;
+    font-weight: normal;
+}
+
+#title p{
+    
 }
