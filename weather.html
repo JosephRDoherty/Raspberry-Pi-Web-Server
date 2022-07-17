@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" media="screen" />
+    <title>J.Pi Weather</title>
+</head>
+<body>
+    <div id="title">
+        <h1>J.Pi Server</h1>
+        <p>Tech solutions for the Doherty House</p>
+    </div>
+    <div id="navBar">
+        <ul>
+            <li><button onclick="location.href='index.html'" type="button">HomeScreen</button></li>
+            <li><button onclick="location.href='weather.html'" type="button">Weather</button></li>
+        </ul>
+    </div>
+    <!--weather widget-->
+    <a class="weatherwidget-io" href="https://forecast7.com/en/42d28n123d62/selma/?unit=us" data-label_1="SELMA" data-label_2="WEATHER" data-theme="dark" data-basecolor="#444444" data-accent="rgba(40, 171, 244, 0.1)" data-suncolor="#f47128">SELMA WEATHER</a>
+    <script>
+        !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+    </script>
+    <!-- Hayes Hill Webcam-->
+    <img src="https://www.tripcheck.com/roadcams/cams/HayesHillSummit_pid2523.JPG?rand=0.22546701682436177" id="myImage" />
+</body>
+</html>

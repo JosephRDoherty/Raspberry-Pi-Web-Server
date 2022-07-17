@@ -1,5 +1,4 @@
-﻿body
-{
+﻿body{
     background-color: #444444;
     color: #f47128;
     font-family: "Courier New", monospace;
@@ -25,3 +24,46 @@
 #title p{
     
 }
+
+#navBar {
+
+    width: 100%;
+    height: auto;
+    border: double;
+    padding: -40px;
+    display: inline-block;
+}
+
+#navBar ul{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+#navBar li{
+    display:inline;
+    padding:0px;
+    float:left;
+
+}
+
+    #navBar button {
+        font-family: "Courier New", monospace;
+        font-weight: bold;
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #f47128;
+        color: black;
+        border-style: outset;
+        border-width: 5px;
+        border-color: #444444;
+    }
+
+        #navBar button:hover {
+            border-style: inset;
+            background-color: #28abf4;
+        }
