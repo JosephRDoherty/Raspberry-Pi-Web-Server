@@ -1,33 +1,41 @@
-﻿body{
+﻿html {
     background-color: #444444;
-    color: #f47128;
-    font-family: "Courier New", monospace;
+    background: url(WeddingPhoto.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
-#title{
+body{
+    color: antiquewhite;
+    font-family: sans-serif;
+}
+
+#title {
+    background-color: #7b876d;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding: 5px;
     text-align: left;
     line-height: 0.2;
-    border-style:inset;
-    border-left-style:double;
-    border-left-width: 10px;
-    padding-left: 2%;
     position: sticky;
 }
 
-#title h1{
-    padding-bottom: 0.9%;
-    padding-right: 200px;
-    border-bottom-style: double;
-    font-weight: normal;
+#title h1 {
+        padding-bottom: 0px;
+        padding-left: 50px;
+        font-weight: normal;
 }
 
 #title p{
-    
+    padding-top: 0px;
+    padding-left: 115px;
+    padding-bottom: 10px;
+    margin: 0px;
 }
 
 #navBar {
-
-    width: 100%;
+    border-bottom-left-radius:25px;
+    margin-left: 40px;
+    width: auto;
     height: auto;
     border: double;
     padding: -40px;
@@ -48,22 +56,26 @@
 
 }
 
-    #navBar button {
-        font-family: "Courier New", monospace;
-        font-weight: bold;
-        display: block;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        background-color: #f47128;
-        color: black;
-        border-style: outset;
-        border-width: 5px;
-        border-color: #444444;
-    }
+#homescreen {
+    border-bottom-left-radius: 25px;
+    border:none;
+}
 
-        #navBar button:hover {
-            border-style: inset;
-            background-color: #28abf4;
-        }
+#navBar button {
+    font-weight: bold;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #7b876d;
+    color: black;
+    border: none;
+    border-right: double;
+    border-color: antiquewhite;
+}
+
+    #navBar button:hover {
+        background-color: #84C7C1;
+        color: antiquewhite;
+    }

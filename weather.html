@@ -13,12 +13,12 @@
     </div>
     <div id="navBar">
         <ul>
-            <li><button onclick="location.href='index.html'" type="button">HomeScreen</button></li>
+            <li><button id="homescreen" onclick="location.href='index.html'" type="button">HomeScreen</button></li>
             <li><button onclick="location.href='weather.html'" type="button">Weather</button></li>
         </ul>
     </div>
     <!--weather widget-->
-    <a class="weatherwidget-io" href="https://forecast7.com/en/42d28n123d62/selma/?unit=us" data-label_1="SELMA" data-label_2="WEATHER" data-theme="dark" data-basecolor="#444444" data-accent="rgba(40, 171, 244, 0.1)" data-suncolor="#f47128">SELMA WEATHER</a>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/42d28n123d62/selma/?unit=us" data-label_1="SELMA" data-label_2="WEATHER" data-font="Roboto" data-theme="blue-mountains">SELMA WEATHER</a>
     <script>
         !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
     </script>
