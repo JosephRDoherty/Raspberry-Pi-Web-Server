@@ -1,4 +1,20 @@
-﻿html {
+﻿/*
+    Color Scheme:
+    Light Blue: #84c7c1;
+    Sage: #7b876d;
+    Eucalyptus: #989e8b;
+    Creamy Pink: #e5c6b7;
+    Sandstone: #ca8348;
+    Aged Pine: #93521e;
+
+
+
+
+
+*/
+
+
+html {
     background-color: #444444;
     background: url(WeddingPhoto.jpg) no-repeat center fixed;
     background-size: cover;
