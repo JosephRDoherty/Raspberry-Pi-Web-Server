@@ -23,14 +23,5 @@
 
     </div>
 
-    <?php
-    echo "";
-    ?>
-
-    <?php{
-    $result = shell_exec('/var/www/html/LEDTEST.py');
-    echo $result;
-    }
-    ?>
 </body>
 </html>

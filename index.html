@@ -15,6 +15,7 @@
         <ul>
             <li><button id="homescreen" onclick="location.href='index.html'" type="button">HomeScreen</button></li>
             <li><button onclick="location.href='weather.html'" type="button">Weather</button></li>
+            <li><button onclick="location.href='LedTestPage.py'" type="button">LED Test</button></li>
         </ul>
     </div>
 
@@ -22,10 +23,5 @@
         <h2>Home Screen</h2>
 
     </div>
-
-    <?php
-    $result = shell_exec('/var/www/html/LEDTEST.py');
-    echo $result;
-    ?>
 </body>
 </html>
